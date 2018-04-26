@@ -16,6 +16,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
       - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Img", name: "img", widget: "string", tagname: "h2"}
+      - {label: "Img", name: "img", widget: "image", tagname: "h2"}
       - {label: "Tags", name: "tags", widget: "string", default: [a, b]}
       - {label: "Body", name: "body", widget: "markdown"}
